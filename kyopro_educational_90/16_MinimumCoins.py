@@ -5,7 +5,7 @@ A = X[0]
 B = X[1]
 C = X[2]
 for n in range(N//A, N//C+1):
-    for x in range(n+1):
+    for x in range(N+1):
         p = N-C*n-(A-C)*x
         if p%(B-C) == 0:
             y = p//(B-C)
